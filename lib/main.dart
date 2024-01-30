@@ -52,7 +52,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            TextButton(
+            FilledButton(
               onPressed: () => _goToNextScreen(context),
               child: const Text(
                 'Next Screen',
